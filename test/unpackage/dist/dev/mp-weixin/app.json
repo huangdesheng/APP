@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/goods/goods",
+    "pages/person/person"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#252E39",
+    "selectedColor": "#0B0B0A",
+    "borderStyle": "white",
+    "backgroundColor": "#FFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/assets/fa-home.png",
+        "selectedIconPath": "static/assets/fa-home-focus.png"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "text": "产品",
+        "iconPath": "static/assets/fa-cart.png",
+        "selectedIconPath": "static/assets/fa-cart-focus.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "我的",
+        "iconPath": "static/assets/fa-user.png",
+        "selectedIconPath": "static/assets/fa-user-focus.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
